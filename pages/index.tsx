@@ -8,8 +8,9 @@ import Profile from "../components/Profile";
 import Sustainability from "../components/Sustainability";
 import Vereinsmanagement from "../components/Vereinsmanagement";
 
-const PAGE_TITLE = "Alexander Beuerle | Portfolio";
-const PAGE_DESCRIPTION = "Portfolio von Alexander Beuerle.";
+const PAGE_TITLE = "Alexander Beuerle | Sportmanagement";
+const PAGE_DESCRIPTION =
+  "Alexander Beuerle ist als Dozent im Bereich Sportmanagement tätig und steht für zielgruppenspezifische und anwendungsorientierte Lehre.";
 
 const Home: NextPage = () => {
   return (
@@ -24,7 +25,10 @@ const Home: NextPage = () => {
           content={PAGE_DESCRIPTION}
           key="ogdesc"
         />
-        <meta property="og:image" content={"./images/LogoClaim.png"} />
+        <meta
+          property="og:image"
+          content={"../public/images/SocialPreview.jpg"}
+        />
       </Head>
 
       <main>
