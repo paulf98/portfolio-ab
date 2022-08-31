@@ -12,6 +12,7 @@ export default function Footer() {
           alt="Logo Alexander Beuerle"
           layout="fill"
           objectFit="contain"
+          placeholder="blur"
         />
       </div>
       <div className="flex flex-col py-4 text-center md:text-left">

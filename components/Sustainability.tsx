@@ -60,7 +60,7 @@ export default function Sustainability() {
           </div>
         </div>
         <div className="relative h-72 md:h-full order-first lg:order-last flex justify-center items-center">
-          <Image src={Nachhaltigkeit} alt="Nachhaltigkeit" layout="fill" objectFit="cover"  />
+          <Image src={Nachhaltigkeit} alt="Nachhaltigkeit" layout="fill" objectFit="cover" placeholder="blur" />
         </div>
       </div>
       <div className="grid lg:grid-cols-2 lg:gap-16 gap-y-16 p-8 lg:p-16">

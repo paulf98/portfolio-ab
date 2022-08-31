@@ -44,6 +44,7 @@ export default function Vereinsmanagement() {
                 alt="Alexander Beuerle mit einer Tartanbahn im Hintergrund"
                 layout={"fill"}
                 objectFit={"cover"}
+                placeholder="blur"
               />
             </div>
           </div>

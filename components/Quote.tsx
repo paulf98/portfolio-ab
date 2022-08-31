@@ -17,7 +17,7 @@ export default function Quote(props: QuoteProps) {
     >
       <div className="w-full pt-1 pb-5">
         <div className="overflow-hidden rounded-full w-20 h-20 -mt-16 mx-auto shadow-lg">
-          <Image src={props.img} alt={props.imgAlt || ""} />
+          <Image src={props.img} alt={props.imgAlt || ""} placeholder="blur" />
         </div>
       </div>
       <div className="w-full mb-10">

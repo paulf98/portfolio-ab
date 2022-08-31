@@ -14,6 +14,7 @@ export default function Profile() {
           layout="responsive"
           objectFit="cover"
           className="rounded-md"
+          placeholder="blur"
         />
       </div>
       <div className="pt-6 md:p-8 grow-0 text-center md:text-left space-y-4 ">

@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="grid md:h-full md:grid-cols-2 gap-0">
         <div className="md:h-screen flex flex-col justify-center align-middle p-8 py-16 md:p-16">
           <div className="mx-4 lg:mx-0 lg:mr-32 mb-8">
-            <Image src={Logo} alt="Alexander Beuerle Logo mit Claim" />
+            <Image src={Logo} alt="Alexander Beuerle Logo mit Claim"  />
           </div>
           <h1 className="text-4xl lg:text-6xl text-center lg:text-left font-bold mb-8">
             Alexander Beuerle
