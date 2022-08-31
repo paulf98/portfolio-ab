@@ -8,13 +8,23 @@ import Profile from "../components/Profile";
 import Sustainability from "../components/Sustainability";
 import Vereinsmanagement from "../components/Vereinsmanagement";
 
+const PAGE_TITLE = "Alexander Beuerle | Portfolio";
+const PAGE_DESCRIPTION = "Portfolio von Alexander Beuerle.";
+
 const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Alexander Beuerle | Portfolio</title>
-        <meta name="description" content="Portfolio von Alexander Beuerle." />
+        <title>{PAGE_TITLE}</title>
+        <meta name="description" content={PAGE_DESCRIPTION} />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content={PAGE_TITLE} key="ogtitle" />
+        <meta
+          property="og:description"
+          content={PAGE_DESCRIPTION}
+          key="ogdesc"
+        />
+        <meta property="og:image" content={"./images/LogoClaim.png"} />
       </Head>
 
       <main>
