@@ -7,6 +7,7 @@ import Partners from "../components/Partners";
 import Profile from "../components/Profile";
 import Sustainability from "../components/Sustainability";
 import Vereinsmanagement from "../components/Vereinsmanagement";
+import SocialPreview from "../public/images/SocialPreview.jpg";
 
 const PAGE_TITLE = "Alexander Beuerle | Sportmanagement";
 const PAGE_DESCRIPTION =
@@ -25,10 +26,7 @@ const Home: NextPage = () => {
           content={PAGE_DESCRIPTION}
           key="ogdesc"
         />
-        <meta
-          property="og:image"
-          content={"../public/images/SocialPreview.jpg"}
-        />
+        <meta property="og:image" content={SocialPreview.src} />
       </Head>
 
       <main>
