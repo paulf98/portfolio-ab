@@ -27,12 +27,14 @@ export default function Vereinsmanagement() {
 
       <div className="grid lg:grid-cols-3 items-start md:gap-16 gap-y-8 px-4 md:p-16">
         <Quote
-          text="Wir sind sehr froh, dass uns Alex mit seiner umfassenden Erfahrung im Vereins- und Verbandsmanagement als Vereinsberater unterstützt und somit einen wesentlichen Beitrag zur Vereinsentwicklung leistet."
-          img={PierreAnton}
-          person="Pierre Anthonj"
-          position="Sportbund Pfalz"
+          text="Alex kennt sowohl die haupt-, als auch
+          die ehrenamtliche Perspektive von Sportorganisationen. Durch diesen Mehrwert
+          ist es ihm möglich, beide Seiten zu betrachten und somit einen umfassenden
+          Einblick zu geben. "
+          img={TobiasChrist}
+          person="Tobias Christ"
+          position="Deutscher Fußball Bund"
         />
-
         <div
           className="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 text-gray-800 mt-12 lg:mt-20 mb-12 md:mb-0"
           style={{ maxWidth: "500px" }}
@@ -65,13 +67,10 @@ export default function Vereinsmanagement() {
           </div>
         </div>
         <Quote
-          text="Alex kennt sowohl die haupt-, als auch
-          die ehrenamtliche Perspektive von Sportorganisationen. Durch diesen Mehrwert
-          ist es ihm möglich, beide Seiten zu betrachten und somit einen umfassenden
-          Einblick zu geben. "
-          img={TobiasChrist}
-          person="Tobias Christ"
-          position="Deutscher Fußball Bund"
+          text="Wir sind sehr froh, dass uns Alex mit seiner umfassenden Erfahrung im Vereins- und Verbandsmanagement als Vereinsberater unterstützt und somit einen wesentlichen Beitrag zur Vereinsentwicklung leistet."
+          img={PierreAnton}
+          person="Pierre Anthonj"
+          position="Sportbund Pfalz"
         />
       </div>
     </div>
