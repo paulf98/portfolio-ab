@@ -5,7 +5,7 @@ import {
   FaShieldAlt,
   FaCalendarCheck,
 } from "react-icons/fa";
-import StefanFeininger from "../public/images/Sandhausen_Stefan_Feininger.jpg";
+import StefanFeininger from "../public/images/StefanFeininger.jpg";
 import PetraSaretz from "../public/images/Heidenheim_Petra_Saretz.jpg";
 
 export default function Eventmanagement() {
