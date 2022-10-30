@@ -15,7 +15,7 @@ import SWFV from "../public/images/logos/SWFV.png";
 
 export default function Partners() {
   return (
-    <>
+    <div className="max-w-7xl mx-auto">
       <h1 className="text-2xl lg:text-4xl text-center font-bold mb-8">
         Referenzen & Netzwerk
       </h1>
@@ -105,6 +105,6 @@ export default function Partners() {
           layout="responsive"
         />
       </div>
-    </>
+    </div>
   );
 }

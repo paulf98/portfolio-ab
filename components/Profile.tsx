@@ -3,7 +3,7 @@ import ABSitzend from "../public/images/AB-sitzend.jpg";
 
 export default function Profile() {
   return (
-    <div className="w-full bg-white flex flex-wrap md:flex-nowrap justify-content-around items-center px-8 py-8 lg:py-16">
+    <div className="w-full max-w-7xl mx-auto bg-white flex flex-wrap md:flex-nowrap justify-content-around items-center px-8 py-8 lg:py-16">
       <div
         className="relative flex-1 rounded-md mx-auto"
         style={{ minWidth: "200px" }}
