@@ -29,7 +29,7 @@ export default function Impressum() {
         <p>
           Telefon: 0151-40375956
           <br />
-          E-Mail: alexander.beuerle@web.de
+          E-Mail: alex@ab-sportmanagement.de
         </p>
 
         <p>

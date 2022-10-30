@@ -28,7 +28,7 @@ export default function Footer() {
       </div>
       <div className="flex flex-col py-4 text-center md:text-left">
         <h3 className="font-bold text-2xl mb-2">Kontakt</h3>
-        <a href="mailto:alexander.beuerle@web.de">alexander.beuerle@web.de</a>
+        <a href="mailto:alex@ab-sportmanagement.de">alex@ab-sportmanagement.de</a>
         <a href="tel:+4915140375956">+49 151 40 3759 56</a>
       </div>
     </footer>
